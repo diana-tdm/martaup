@@ -72,15 +72,27 @@ a {
 }
 .header-slider__item-info {
   max-width: 506px;
+  color: #fff;
 }
 .header-slider__title {
   font-weight: 700;
   font-size: 45px;
   line-height: 60px;
+  margin-bottom: 10px;
 }
 .header-slider__description {
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 60px;
 }
 .header-slider__btn {
+  text-transform: uppercase;
+  color: #250f8a;
+  font-weight: 600;
+  padding: 13px 39px;
+  background-color: #ffca00;
+  border-radius: 25px;
 }
 .header-slider__item-images {
+  margin: 10px 82px 0 0;
 }
