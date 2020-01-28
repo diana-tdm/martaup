@@ -231,12 +231,46 @@ a {
   color: #fff;
 }
 .reviews__item-head {
+  margin-bottom: 13px;
+  display: flex;
+}
+.reviews__item-head img {
+  border-radius: 50%;
+  margin-right: 20px;
 }
 .reviews__item-info {
 }
 .reviews__item-name {
+  font-weight: 600;
 }
 .reviews__item-position {
+  opacity: 0.5;
 }
 .reviews__item-text {
+  text-align: center;
+  padding-top: 39px;
+  position: relative;
+}
+.reviews__item-text::before {
+  content: "“";
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.footer {
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 61px;
+  color: #272727;
+  padding: 0 40px;
+}
+.footer__link a + a {
+  margin-left: 20px;
 }
